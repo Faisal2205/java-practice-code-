@@ -1,0 +1,17 @@
+package com.kode.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Configuration;
+
+import com.kode.main.beans.UserInfo;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext context = new AnnotationConfigApplicationContext(Configuration.class);
+       UserInfo user = (UserInfo) context.getBean("createUser");
+       System.out.println(user);
+    }
+}

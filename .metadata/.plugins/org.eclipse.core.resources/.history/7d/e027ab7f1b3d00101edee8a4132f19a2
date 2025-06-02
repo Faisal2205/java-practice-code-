@@ -1,0 +1,8 @@
+package com.kodewala.main.resource;
+
+
+public class JdbcConfig {
+
+	
+	
+}

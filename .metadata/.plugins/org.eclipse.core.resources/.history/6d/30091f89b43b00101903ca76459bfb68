@@ -1,0 +1,17 @@
+package com.kodewala.main.beans;
+
+public class SalaryInfo {
+
+	private int baseSal;
+
+	public SalaryInfo(int empSalary) {
+		this.baseSal = empSalary;
+	}
+	
+	@Override
+	public String toString()
+	{
+		return "Employee Salary" + baseSal;
+	}
+	
+}

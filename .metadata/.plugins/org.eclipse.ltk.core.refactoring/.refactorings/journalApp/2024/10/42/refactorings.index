@@ -1,0 +1,6 @@
+1729179217866	Rename type 'JournalAppApplication'
+1729179525126	Rename package 'com.project.journalApp.controller'
+1729179813603	Rename package 'controller'
+1729263430351	Encapsulate field 'id'
+1729263444222	Encapsulate field 'title'
+1729263454938	Encapsulate field 'content'

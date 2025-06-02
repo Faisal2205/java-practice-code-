@@ -1,0 +1,22 @@
+package com.kodewala.main.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Employee {
+
+	@Value
+	private String firstName;
+	private String lastName;
+	
+	public Employee(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+	
+	public void show()
+	{
+		System.out.println("FName: "+firstName+" Lname:"+ lastName);
+	}
+}

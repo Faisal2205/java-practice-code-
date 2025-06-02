@@ -1,0 +1,8 @@
+package com.example.paymentSystem;
+
+public class CreditCardPayment implements PaymentMethod{
+    public void processPayment(double amount)
+    {
+    	System.out.println("Processing Credit Card Payment of $"+amount);
+    }
+}

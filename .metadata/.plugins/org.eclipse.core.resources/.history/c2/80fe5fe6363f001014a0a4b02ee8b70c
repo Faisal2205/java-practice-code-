@@ -1,0 +1,37 @@
+package com.kodewala.main;
+
+
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.kodewala.main.beans.user.UserPayment;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        UserPayment userPayment = new UserPayment();
+        
+        userPayment.setAmount(5000.00);
+        userPayment.setPaymentStatus("Completed");
+        userPayment.setFeedback("Thank you... Your payment completed Successfully");
+        
+        Configuration config = new Configuration();
+        
+        config.configure("\\com\\kodewala\\main\\resource\\Hibernate.cfg.xml");
+        
+        SessionFactory sessionFactory = config.buildSessionFactory();
+       
+        Session session = sessionFactory.openSession();    
+        
+        Transaction transaction = session.beginTransaction();
+       
+        session.save(userPayment);
+        
+        transaction.commit();
+        
+    }
+}

@@ -1,0 +1,13 @@
+package javaPractice;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         
+		int String = 5;
+		
+		System.out.print(String);
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.kodewala.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.kodewala.main.beans.Employee;
+import com.kodewala.main.configuration.SpringConfigg;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfigg.class);
+        
+        Employee employee = (Employee) context.getBean(Employee.class);
+        
+        employee.show();
+    }
+}

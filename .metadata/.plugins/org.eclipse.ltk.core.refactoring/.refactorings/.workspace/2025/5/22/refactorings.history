@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Sprting_DI_Setter_Method&apos; to &apos;Spring_DI_Setter_Method&apos;" description="Rename resource &apos;Sprting_DI_Setter_Method&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Sprting_DI_Setter_Method" name="Spring_DI_Setter_Method" stamp="1748431269800" updateReferences="true"/>
+</session>

@@ -1,0 +1,7 @@
+package com.kode.main.beans;
+
+public class Employee {
+
+	private String empName;
+	private EmployeeSalary empSal;
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Hibernate2\src\main\java\com\kodewala\main\App.java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Hibernate\src\main\java\com\kodewala\main\config\Hibernate.cfg.xml"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_JDBC2\src\main\java\com\kodewala\main\App.java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Jdbc\src\main\java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Jdbc"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Jdbc\src\main\java\com\kodewala\main\resource\JdbcConfig.java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Jdbc\src\main\java\com\kodewala\main"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Setter_Method"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\SpringBeanCreation_Annotation"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Constructor5\src\main\java\com\kodewala\main"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Constructor2\src\main\java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Constructor\src\main\java\com\kode\main\App.java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Setter5\src\main\java\com\kode\main\App.java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Setter4\src\main\java\com\kode\main\App.java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\SpringCreationXML\src\main\java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.kodewala.main"/>
+		</list>
+		<list key="groupId">
+			<item value="com.kodewala"/>
+		</list>
+		<list key="artifactId">
+			<item value="Spring_Data_Hibernate3"/>
+			<item value="Spring_Data_Hibernate2"/>
+			<item value="Spring_Data_Hibernate"/>
+			<item value="Spring_Data_JDBC2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\mohdf\OneDrive\Attachments\Desktop\Spring Boot\journalApp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
+	</section>
+</section>
