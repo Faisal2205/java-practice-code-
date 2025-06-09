@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_MVC_Web3"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_MVC_Web"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Jdbc\src\main\java\com\kodewala\main\App.java"/>
+			<item value="C:\Users\mohdf\eclipse-workspace\JDBC\src\main\java\com\kodewala\jdbc\MyJDBCConnector.java"/>
 			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Hibernate2\src\main\java\com\kodewala\main\App.java"/>
 			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_Hibernate\src\main\java\com\kodewala\main\config\Hibernate.cfg.xml"/>
 			<item value="C:\Users\mohdf\eclipse-workspace\Spring_Data_JDBC2\src\main\java\com\kodewala\main\App.java"/>
@@ -13,10 +17,6 @@
 			<item value="C:\Users\mohdf\eclipse-workspace\SpringBeanCreation_Annotation"/>
 			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Constructor5\src\main\java\com\kodewala\main"/>
 			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Constructor2\src\main\java"/>
-			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Constructor\src\main\java\com\kode\main\App.java"/>
-			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Setter5\src\main\java\com\kode\main\App.java"/>
-			<item value="C:\Users\mohdf\eclipse-workspace\Spring_DI_Setter4\src\main\java\com\kode\main\App.java"/>
-			<item value="C:\Users\mohdf\eclipse-workspace\SpringCreationXML\src\main\java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -41,11 +41,26 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="com.kodewala.main"/>
+			<item value="com.kodewala.srtrtrgdrd"/>
+			<item value="com.kodewala.saDSVHzjh"/>
+			<item value="com.kodewala.jhhjvvhggfdhttd"/>
+			<item value="com.kodewala.sshedwyubjfdskgsk"/>
 		</list>
 		<list key="groupId">
 			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring_MVC_Web5"/>
+			<item value="Spring_MVC_Web4"/>
+			<item value="Spring_MVC_Web3"/>
+			<item value="Spring_MVC_Web1"/>
+			<item value="Spring_MVC_Web"/>
+			<item value="srtrtrgdrd"/>
+			<item value="saDSVHzjh"/>
+			<item value="jhhjvvhggfdhttd"/>
+			<item value="sshedwyubjfdskgsk"/>
+			<item value="Jdbc_Batch"/>
+			<item value="Jdbc_Connection"/>
 			<item value="Spring_Data_Hibernate3"/>
 			<item value="Spring_Data_Hibernate2"/>
 			<item value="Spring_Data_Hibernate"/>
