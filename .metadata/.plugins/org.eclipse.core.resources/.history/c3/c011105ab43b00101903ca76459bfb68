@@ -1,0 +1,16 @@
+package com.kodewala.main.beans;
+
+public class SalaryInfo {
+
+	private int empSalary;
+
+	public SalaryInfo(int empSalary) {
+		this.empSalary = empSalary;
+	}
+	
+	public String toString()
+	{
+		return "Employee Salary" + empSalary;
+	}
+	
+}

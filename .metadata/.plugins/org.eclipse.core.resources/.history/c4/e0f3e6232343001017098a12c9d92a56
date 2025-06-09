@@ -1,0 +1,22 @@
+package com.singleton;
+
+public class Samosa {
+	
+	private static Samosa samosa;
+	
+	private Samosa()
+	{
+		
+	}
+
+	//         Lazy way to create Singleton object
+	
+	public static Samosa getSamosa()
+	{
+		if(samosa == null)
+		{
+			samosa = new Samosa();
+		}
+		return samosa;
+	}
+}

@@ -1,0 +1,5 @@
+package com.kode.main.resource;
+
+public class SpringConfig {
+
+}

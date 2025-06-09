@@ -1,0 +1,22 @@
+package com.kode.main.resource;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.kode.main.beans.EmpSalary;
+import com.kode.main.beans.Employee;
+
+@Configuration
+public class Config {
+	
+	public Employee createEmp() {
+		Employee employee = new Employee("Mohd","Faisal" );
+		return employee;
+	}
+	
+	public EmpSalary createSal()
+	{
+		EmpSalary empSalary = new EmpSalary(1500000.00);
+		return empSalary;
+	}
+
+}

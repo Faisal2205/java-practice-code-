@@ -1,0 +1,15 @@
+package com.kodewala.main.booking.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class CancelBookingController {
+
+	public ModelAndView cancelBooking()
+	{
+		System.out.println("modelAndView.cancelBooking");
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("cancelConfirmation");
+		return modelAndView;
+		
+	}
+}

@@ -1,0 +1,8 @@
+package com.challenge1;
+
+public class InterThreadExample {
+
+	public static void main(String[] args) {
+		
+	}
+}

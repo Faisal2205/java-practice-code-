@@ -1,0 +1,14 @@
+package com.kodewala.main.booking.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class BookingController {
+
+	public ModelAndView cabService()
+	{
+		System.out.println("modelView.cabService");
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("bookingService");
+		return modelAndView;
+	}
+}

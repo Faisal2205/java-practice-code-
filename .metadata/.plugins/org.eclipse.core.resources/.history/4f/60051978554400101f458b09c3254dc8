@@ -1,0 +1,49 @@
+package com.singleton;
+
+import java.io.Serializable;
+
+public class Samosa implements Serializable{
+	
+	private static Samosa samosa;
+	
+	private Samosa()
+	{
+//		if(samosa!=null)
+//		{
+//			throw new RuntimeException("You are Trying to break Singleton Pattern");
+//		}
+	}
+
+	//         Lazy way to create Singleton object
+	
+	public static Samosa getSamosa()
+	{
+		if(samosa == null)
+		{
+			synchronized (Samosa.class) {
+				if(samosa==null)
+				samosa = new Samosa();
+				try {
+					Thread.sleep(1000);
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
+			}
+//			try {
+//				Thread.sleep(1000);
+//			}
+//			catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
+//					samosa = new Samosa();
+				
+			
+		}
+		return samosa;
+	}
+	
+	public Object readResolve()
+	{
+		return samosa;
+	}
+}

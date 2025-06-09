@@ -1,0 +1,20 @@
+package com.singleton;
+
+public class Samosa {
+	
+	private static Samosa samosa;
+	
+	private Samosa()
+	{
+		
+	}
+
+	public static Samosa getSamosa()
+	{
+		if(samosa==null)
+		{
+			new Samosa();
+		}
+		return samosa;
+	}
+}

@@ -1,0 +1,21 @@
+package com.kodewala.main.booking.controller;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Component
+public class BookingController {
+	
+	@RequestMapping("bookingService")
+	public ModelAndView bookingService()
+	{
+		System.out.println("modelView.bookingCab()");
+		ModelAndView modelAndView = new ModelAndView();
+		
+		
+		return modelAndView;
+	}
+
+	
+}

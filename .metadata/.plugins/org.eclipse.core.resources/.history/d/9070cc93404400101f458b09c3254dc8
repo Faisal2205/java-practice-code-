@@ -1,0 +1,39 @@
+package com.singleton;
+
+public class Samosa{
+	
+	private static Samosa samosa;
+	
+	private Samosa()
+	{
+		
+	}
+
+	//         Lazy way to create Singleton object
+	
+	public static Samosa getSamosa()
+	{
+		if(samosa == null)
+		{
+			synchronized (Samosa.class) {
+				if(samosa==null)
+				samosa = new Samosa();
+				try {
+					Thread.sleep(1000);
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
+			}
+//			try {
+//				Thread.sleep(1000);
+//			}
+//			catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
+//					samosa = new Samosa();
+				
+			
+		}
+		return samosa;
+	}
+}

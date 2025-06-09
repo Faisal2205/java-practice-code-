@@ -1,0 +1,11 @@
+package com.kodewala.main.booking.controller;
+
+import org.springframework.web.servlet.ModelAndView;
+
+public class CancelBookingController {
+
+	public ModelAndView cancelCab()
+	{
+		System.out.println("CancelBookingController.cancelCab()");
+	}
+}
