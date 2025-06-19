@@ -2,4 +2,5 @@
 <publish-info>
   <server id="apache-tomcat-10.1.12 at localhost" path="publish0.dat"/>
   <server id="apache-tomcat-10.1.13 at localhost" path="publish1.dat"/>
+  <server id="apache-tomcat-10.1.14 at localhost" path="publish2.dat"/>
 </publish-info>

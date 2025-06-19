@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Built-By: mohdf
-Build-Jdk: 20.0.2
+Build-Jdk: 21.0.3
 Implementation-Title: Spring Boot Quick Start Archetype
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: com.kodewala.jdbc

@@ -1,6 +1,0 @@
-package com.kodewala.main.beans;
-
-public class Zepto {
-
-	private int zeptoId;
-}

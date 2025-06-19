@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <temp-directories>
+  <temp-directory age="0" key="apache-tomcat-10.1.14 at localhost" path="tmp2" recycle="false"/>
   <temp-directory age="0" key="apache-tomcat-10.1.12 at localhost" path="tmp0" recycle="false"/>
   <temp-directory age="0" key="apache-tomcat-10.1.13 at localhost" path="tmp1" recycle="false"/>
 </temp-directories>
