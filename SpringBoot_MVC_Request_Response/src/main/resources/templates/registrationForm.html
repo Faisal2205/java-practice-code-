@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>User Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 20px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">User Registration</h2>
+
+<form th:action="@{/register}" th:object="${UserInfo}" method="post">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" th:field="*{firstName}" placeholder="Enter First Name" required />
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" th:field="*{lastName}" placeholder="Enter Last Name" required />
+
+    <label for="mobileNumber">Mobile Number:</label>
+    <input type="text" id="mobileNumber" th:field="*{mobileNumber}" placeholder="Enter Mobile Number" required />
+
+    <label for="address">Address:</label>
+    <textarea id="address" th:field="*{address}" placeholder="Enter Address" required></textarea>
+
+    <button type="submit">Register</button>
+</form>
+
+</body>
+</html>
