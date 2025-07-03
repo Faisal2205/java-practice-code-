@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Aadhar Registration Success</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .success-card {
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .success-card h2 {
+            color: green;
+        }
+        .ref-number {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-card">
+        <h2>Your Aadhar Registration is Successfully Registered</h2>
+        <p>Your reference number is: 
+            <span class="" th:text="${UserInfo.referenceNumber}">ABC123456789</span>
+        </p>
+    </div>
+</body>
+</html>
