@@ -1,1 +1,13 @@
 /.metadata/
+node_modules/
+dist/
+build/
+*.log
+*.class
+*.iml
+*.tmp
+.idea/
+.vscode/
+.env
+*.jar
+target/
