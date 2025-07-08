@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/aadhaar
+    url: jdbc:mysql://localhost:3306/Aadhar_User_Registration
     username: root
-    password: Test@12345
+    password: Password@123
   jpa:
     hibernate:
       ddl-auto: update
