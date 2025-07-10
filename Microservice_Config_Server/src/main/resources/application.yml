@@ -9,4 +9,4 @@ spring:
           uri: git@github.com:Faisal2205/java-practice-code-.git
           default-label: main
           clone-on-start: true
-          search-paths: configs
+          search-paths: Configs
